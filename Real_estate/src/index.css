@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input,select{
+    padding: 5px;
+    height: 35px;
+    width:100%;
+}
+label{
+    margin-bottom: 10px;
+
+}
+.card{
+    width:31%;
+}
+@media only screen  and (240px<width<=767px)  {
+    .card{
+        width:100%;
+    }
+}
+@media only screen  and (768px<=width<=1024px)  {
+    .card{
+        width:46%;
+    }
+}
